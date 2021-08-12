@@ -52,6 +52,7 @@ return [
     |
     */
 
+    // 'url' => env('APP_URL', 'http://localhost/Proyectos/laraveltranslation'),
     'url' => env('APP_URL', 'http://localhost'),
 
     'asset_url' => env('ASSET_URL', null),
@@ -93,7 +94,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+    'fallback_locale' => 'es',
 
     /*
     |--------------------------------------------------------------------------
